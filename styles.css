@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Changed background to bold black */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2a2a2a; /* Changed background to darker black */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Changed heading color to white */
+  }
+  
+  #question {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff; /* Changed question color to white */
+  }
+  
+  .option {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #3a3a3a; /* Changed option background to dark black */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #fff; /* Changed option text color to white */
+  }
+  
+  .option:hover {
+    background-color: #4a4a4a; /* Changed option hover color to even darker black */
+    transform: scale(1.03);
+  }
+  
+  .option.selected {
+    background-color: #007bff; /* Changed selected option background to blue */
+    color: #fff;
+  }
+  
+  #submitBtn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Changed submit button background to blue */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submitBtn:hover {
+    background-color: #0056b3; /* Changed submit button hover background to darker blue */
+    transform: scale(1.05);
+  }
+  
+  #score {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff; /* Changed score color to white */
+  }
+  
+  #ending-screen {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #ending-screen h2 {
+    color: #fff; /* Changed ending screen heading color to white */
+  }
+  
+  #ending-screen p {
+    color: #ccc; /* Changed ending screen text color to light gray */
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    /* Add more specific styles for smaller screens */
+  }
+  
